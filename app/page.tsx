@@ -287,7 +287,7 @@ function BurstButterflyLayer({ items }: { items: BurstButterfly[] }) {
 }
 
 export default function Home() {
-  const eventDate = "2026-05-15T19:00:00";
+  const eventDate = "2026-05-16T19:00:00";
 
   const [mounted, setMounted] = useState(false);
 
@@ -784,7 +784,7 @@ export default function Home() {
                       className="flex shrink-0 items-center gap-2 whitespace-nowrap rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-[#e8ddd5]"
                     >
                       <CalendarDays className="h-4 w-4 text-[#d7b46a]" />
-                      15 de mayo
+                      16 de mayo
                     </motion.div>
 
                     <motion.div
